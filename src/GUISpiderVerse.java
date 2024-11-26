@@ -96,9 +96,9 @@ public class GUISpiderVerse {
                         hero.setNivelExperiencia(xp);
                         JOptionPane.showMessageDialog(null, "Registro actualizado exitosamente");
 
-                        txtCodigo.setText(" ");
-                        txtNombre.setText(" ");
-                        txtEXP.setText(" ");
+                        txtCodigo.setText("");
+                        txtNombre.setText("");
+                        txtEXP.setText("");
                         cbRegUniverso.setSelectedIndex(0);
                         cbRegPoder.setSelectedIndex(0);
 
